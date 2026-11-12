@@ -1,0 +1,95 @@
+# DOKUMENTASI KANDIDAT MARKER
+**Praktikum Augmented Reality – Pertemuan 10**
+
+Nama: Zulkifli  
+Project: AR_2924033_Zulkifli_FinalProject  
+
+1. KANDIDAT MARKER
+
+Pada project Augmented Reality (AR) ini, terdapat dua gambar yang digunakan sebagai kandidat marker, yaitu:
+
+Kandidat 1 : Marker_FullBody.jpg
+
+Kandidat 2 : Marker_CloseUp.jpg
+
+Kedua gambar tersebut akan dibandingkan berdasarkan beberapa kriteria untuk menentukan marker yang paling sesuai digunakan pada aplikasi Augmented Reality.
+
+2. ANALISIS KANDIDAT MARKER
+
+A. Marker_FullBody.jpg
+
+Menampilkan karakter secara keseluruhan.
+
+Memiliki detail visual pada pakaian dan bagian tubuh karakter.
+
+Memiliki area gambar yang cukup luas.
+
+Beberapa bagian gambar memiliki warna gelap yang berpotensi mengurangi kejelasan fitur visual.
+
+B. Marker_CloseUp.jpg
+
+Menampilkan karakter dari jarak dekat.
+
+Memiliki detail wajah dan efek visual yang lebih jelas.
+
+Memiliki kombinasi warna dan kontras yang cukup beragam.
+
+Memiliki banyak pola visual yang dapat membantu proses pengenalan marker.
+
+3. HASIL PEMILIHAN MARKER
+
+Berdasarkan hasil pengamatan terhadap kedua kandidat gambar, marker yang dipilih untuk digunakan pada project ini adalah:
+
+Marker_CloseUp.jpg
+
+Alasan pemilihan:
+
+Detail gambar lebih terlihat jelas.
+
+Memiliki variasi warna dan kontras yang cukup baik.
+
+Bagian wajah dan efek visual memiliki pola yang lebih mudah diamati.
+
+Memiliki karakteristik visual yang lebih menonjol dibandingkan kandidat pertama.
+
+4. KONFIGURASI MARKER DI UNITY
+
+Marker yang telah dipilih kemudian dimasukkan ke dalam Reference Image Library pada Unity.
+
+Nama File : Marker_CloseUp.jpg
+
+Nama Reference Image : Marker_FinalProject
+
+Resolusi Gambar : 728 × 1164 pixels
+
+Physical Size X : 0.10 m
+
+Physical Size Y : 0.16 m
+
+Reference Image Library : RefImageLibrary_FinalProject
+
+Lokasi penyimpanan asset:
+
+Assets/Markers/
+
+Assets/ReferenceImages/
+
+5. PENGATURAN AR TRACKED IMAGE MANAGER
+
+Komponen AR Tracked Image Manager digunakan untuk mendeteksi dan melacak marker melalui kamera perangkat.
+
+Pengaturan yang digunakan:
+
+Reference Library : RefImageLibrary_FinalProject
+
+Max Number Of Moving Images : 1 (jika tersedia)
+
+Reference Image Library harus terhubung dengan komponen AR Tracked Image Manager pada objek XR Origin.
+
+6. KESIMPULAN
+
+Berdasarkan perbandingan kedua kandidat marker, Marker_CloseUp.jpg dipilih sebagai marker utama dalam project Augmented Reality ini karena memiliki detail visual, variasi warna, dan karakteristik gambar yang lebih menonjol.
+
+Marker tersebut kemudian dimasukkan ke dalam Reference Image Library Unity dan dihubungkan dengan komponen AR Tracked Image Manager agar dapat dikenali dan dilacak oleh kamera perangkat Android.
+
+Catatan: Physical Size harus disesuaikan dengan ukuran fisik gambar marker yang benar-benar dicetak. Nilai 0.10 m × 0.16 m hanya digunakan apabila ukuran cetak marker adalah 10 cm × 16 cm.
